@@ -1,0 +1,9 @@
+/.venv
+/venv
+/node_modules
+/Lib
+/Include
+/Scripts
+.env
+stack.env
+pyenv.cfg

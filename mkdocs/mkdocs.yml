@@ -1,0 +1,32 @@
+site_name: ModExpo
+nav:
+  - Home: index.md
+  - About: about.md
+  - GGX:
+    - Home: ggx/home.md
+    - Core: ggx/core.md
+    - Scripting:
+      - Luascript: ggx/luagg.md
+      - Python: ggx/pygg.md
+    - Components:
+      - Patcher: ggx/patcher.md
+      - Builder: ggx/builder.md
+      - Crypto: ggx/excrypt.md
+      - Compression: ggx/compression.md
+  - Guides:
+    - X360 Reversing:
+      - Intro: guides/x360-reversing/intro.md
+      - CB_B Patches: guides/x360-reversing/page1.md
+      - CD Patches: guides/x360-reversing/page2.md
+      - HV Patches (Missing): guides/x360-reversing/page3.md
+      - Kernel Patches: guides/x360-reversing/page4.md
+      - Miscellaneous Kernel Patches: guides/x360-reversing/page5.md
+      - Find and patch Kernel Errors: guides/x360-reversing/page6.md
+      - Setting up Syscall table: guides/x360-reversing/page7.md
+      - Outro: guides/x360-reversing/outro.md
+
+theme:
+  name: readthedocs
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky

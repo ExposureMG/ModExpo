@@ -6,4 +6,4 @@
 /Scripts
 .env
 stack.env
-pyenv.cfg
+pyvenv.cfg
